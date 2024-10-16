@@ -6,7 +6,7 @@
  * [Topluluk Twitter](https://twitter.com/corenodeHQ)<br>
  * [Discord](https://discord.gg/8ZWgu2pWY4)<br>
  * [Twitter](https://x.com/Covalent_HQ)<br>
- * [covalent Website](https://0g.ai/)<br>
+ * [covalent Website](https://www.covalenthq.com/tr/)<br>
  * [covalent gitbook/docs](https://www.covalenthq.com/docs/nodes/ewm-light-client/run-ewm-lc)<br>
  * [covalent Telegram](https://t.me/CovalentHQ)<br>
  * [Staking Page](https://www.covalenthq.com/staking/)<br>
