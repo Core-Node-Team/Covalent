@@ -11,6 +11,10 @@
  * [covalent Telegram](https://t.me/CovalentHQ)<br>
  * [Staking Page](https://www.covalenthq.com/staking/)<br>
 
+### Waitlist Form
+
+https://forms.gle/sS1RDAgUwju7UQV19
+
 
 ## 💻 Sistem Gereksinimleri
 | Bileşenler | Minimum Gereksinimler | 
