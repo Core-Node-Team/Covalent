@@ -87,6 +87,20 @@ docker logs -f light-client
 - mailde bize bir form veriyor register formu ona ilk mainnet için nft alacağımız cüzdanı daha sonrada nodu kurarken girdiğim private burner cüzdanın adresini yaızyoruz ve gönderiyoruz. discorda giriyoruz. başka bişi suan için yok maili translate ile çevirip okuyun ve discorda sorun.
 
 
+### Dockersız kurulum YAPIM AŞAMASINDA GÖRMEZDEN GELİN
+
+git clone https://github.com/covalenthq/ewm-das
+cd ewm-das
+make deps
+make
+
+wget https://github.com/covalenthq/ewm-das/releases/download/v0.11.0-rc1/das-ubuntu-v0.11.0-rc1.tar.gz && tar -xf das-ubuntu-v0.11.0-rc1.tar.gz
+
+./bin/light-client --rpc-url ws://coordinator.das.test.covalentnetwork.org/rpc --collect-url https://us-central1-covalent-network-team-sandbox.cloudfunctions.net/ewm-das-collector --private-key ${PRIVATE_KEY}
+
+
+tail -n 1000 -f $HOME/.covalent/light-client.log
+
 
 
 
