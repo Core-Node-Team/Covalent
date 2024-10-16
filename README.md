@@ -56,6 +56,7 @@ ipfs --version
 ```
 ### Covalent reposunu çekelim ve build edelim
 ```
+cd
 git clone https://github.com/covalenthq/ewm-das
 cd ewm-das
 ```
