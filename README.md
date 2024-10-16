@@ -82,7 +82,9 @@ docker logs -f light-client
 
 
 
+### işlem sonu
 
+- mailde bize bir form veriyor register formu ona ilk mainnet için nft alacağımız cüzdanı daha sonrada nodu kurarken girdiğim private burner cüzdanın adresini yaızyoruz ve gönderiyoruz. discorda giriyoruz. başka bişi suan için yok maili translate ile çevirip okuyun ve discorda sorun.
 
 
 
