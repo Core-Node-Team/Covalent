@@ -133,7 +133,7 @@ tail -n 1000 -f $HOME/.covalent/light-client.log
 ### Güncelleme
 NOT: private key yaz.
 ```
-cd $HOME/ewm-das && git fetch --all && git checkout main && git pull origin main && git tag && git checkout v0.13.0 && git switch -c v0.13.0 && docker build -t covalent/light-client -f Dockerfile.lc . && docker stop light-client && docker rm light-client && docker run -d --restart always --name light-client -e PRIVATE_KEY="private-key-yaz" covalent/light-client && docker logs -f light-client
+cd $HOME/ewm-das && git stash && git pull origin main && git stash pop && git fetch --all && git checkout main && git pull origin main && git tag && git checkout v0.13.0 && git switch -c v0.13.0 && docker build -t covalent/light-client -f Dockerfile.lc . && docker stop light-client && docker rm light-client && docker run -d --restart always --name light-client -e PRIVATE_KEY="private-yaz" covalent/light-client && docker logs -f light-client
 ```
 
 
